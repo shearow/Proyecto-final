@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-header container">
+            <a href="index.html" class="logo-header">
+                <img src="img/tigger-logo.png" alt="logo tigre">
+            </a>
+
+            <div class="burger">
+                <i class="fa-solid fa-bars-staggered burger-open active"></i>
+                <i class="fa-solid fa-x burger-close"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="store.html">Tienda</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li class="user-session"><a href="register.html" class="bg-border">Iniciar Sesion</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping cart"><span><p>0</p></span></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="video/video1.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-content" data-animate="rotate">
+                <H2>Animal L<span>o</span>ve</H2>
+                <p data-animate="opacity">Dale un poco de amor a tu mejor amigo,</p>
+                <p data-animate="opacity">dale lo mejor a tu mascota.</p>
+                <a href="#brands" class="btn-content">Descubrinos</a>
+            </div>
+
+            <div class="social-network">
+                <a href="#" ><i class="fa-brands fa-square-facebook" data-animate="opacity"></i></a>
+                <a href="#" ><i class="fa-brands fa-square-twitter" data-animate="opacity"></i></a>
+                <a href="#" ><i class="fa-brands fa-square-instagram" data-animate="opacity"></i></a>
+            </div>          
+        </div>        
+    </div>
+
+    <section class="section-brands" id="brands" data-animate="opacity2">
+        <h2 class="section-title">Sponsors</h2>
+        <div class="section-brands-container container">
+            <div><img src="/img/brands/eukanuba.png" alt="logo marca Eukanuba"></div>
+            <div><img src="/img/brands/fawna.png" alt="logo marca Fawna"></div>
+            <div><img src="/img/brands/holiday.png" alt="logo marca Holiday"></div>
+            <div><img src="/img/brands/old-prince.png" alt="logo marca Old Prince"></div>
+            <div><img src="/img/brands/purina.png" alt="logo marca Purina"></div>
+            <div><img src="/img/brands/royal-canin.png" alt="logo marca Royal Canin"></div>
+            <div><img src="/img/brands/sieger.png" alt="logo marca Sieger"></div>
+            <div><img src="/img/brands/vital-can.png" alt="logo marca Vitalcan"></div>
+        </div>
+    </section>
+
+    <section class="section-about" id="about">
+        <div class="section-about-content container" data-animate='scrollY'>
+            <h2 class="section-title">¿Quiénes somos?</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="img/section1.png">
+                </div>
+                <div class="about-text"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ex ut animi aperiam odit consequatur vero excepturi facilis laboriosam doloribus impedit vel quia iure blanditiis, delectus autem incidunt enim numquam, repellat, adipisci magni quasi magnam illo qui. Illum excepturi reiciendis ab consectetur dolorem velit sint at quasi rem. Nihil, aliquam!</p>
+                    <a href="about.html" class="btn">Leér más sobre nosotros</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-newsletter">
+        <h2 class="section-title">Newsletter</h2>
+        <div class="section-newsletter-container container" data-animate="rotate">
+            <input type="email" placeholder="Email">
+            <button>Suscribirse</button>
+        </div>
+        <img class="img-back1" src="img/front-view-of-beautiful-dog-with-copy-space.png" alt="perro con anteojos de sol" data-animate="scrollY">
+        <img class="img-back2" src="img/gray-kitty-with-monochrome-wall-behind-her.png" alt="gato gris de cabeza" data-animate="scrollY">
+    </section>
+    
+    <main>
+        <section class="section-shop">        
+            <h2 class="section-title">Productos destacados</h2>
+            <div class="section-shop-container">
+                
+                <a href="store.html" class="btn-shop">Ver tienda</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-networks">
+                <h3>Redes</h3>
+                <div class="footer-network-content">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <H3>Contacto</H3>
+                <div class="footer-contact-content">
+                    <p>Dirección: Calle falsa 123</p>
+                    <p>Tel: 123123123</p>
+                    <p>Mail: animallove@hotmail.com</p>
+                </div>
+            </div>            
+            <div class="footer-help">
+                <h3>Necesitas ayuda?</h3>
+                <a href="help.html" class="btn">Entrá acá</a>
+            </div>
+        </div>
+        <div class="author">Created By Nicolás Bietti &copy</div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/menu-burger.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>

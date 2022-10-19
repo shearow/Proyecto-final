@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-header container">
+            <a href="index.html" class="logo-header">
+                <img src="img/tigger-logo.png" alt="logo tigre">
+            </a>
+
+            <div class="burger">
+                <i class="fa-solid fa-bars-staggered burger-open active"></i>
+                <i class="fa-solid fa-x burger-close"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="store.html">Tienda</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li class="user-session"><a href="register.html" class="bg-border">Iniciar Sesion</a></li>                    
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping cart"><span><p>0</p></span></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <section class="store-page">
+            <h3 class="section-title">Tienda</h3>
+                        
+            <div class="store-search">
+                <input type="search" placeholder="Buscar">
+            </div>            
+            <div class="filter-and-order container">                
+                <div class="filters-menu">
+                    <button >Filtros<i class="fa-solid fa-angle-down"></i></button>
+                </div>
+
+                <div class="store-order">
+                    <label for="filter-opt-order">Ordenar por: </label>
+                    <select name="filter-opt-order" id="filter-opt-order">
+                        <option value="all">Todos</option>
+                        <option value="min-to-max">Menor precio</option>
+                        <option value="max-to-min">Mayor precio</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container container">
+                <div class="filter-opt">
+                    <div class="category">
+                        <label for="filter-opt-category">Categorías:</label>
+                        <select name="filter-opt-category" id="filter-opt-category">
+                            <option value="all" selected>Todos</option>
+                            <option value="perro">Perros</option>
+                            <option value="gato">Gatos</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-products">
+            <div class="store-products-container container"></div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-networks">
+                <h3>Redes</h3>
+                <div class="footer-network-content">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <H3>Contacto</H3>
+                <div class="footer-contact-content">
+                    <p>Dirección: Calle falsa 123</p>
+                    <p>Tel: 123123123</p>
+                    <p>Mail: animallove@hotmail.com</p>
+                </div>
+            </div>            
+            <div class="footer-help">
+                <h3>Necesitas ayuda?</h3>
+                <a href="help.html" class="btn">Entrá acá</a>
+            </div>
+        </div>
+        <div class="author">Created By Nicolás Bietti &copy</div>
+    </footer>
+
+    <script src="js/menu-burger.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/store.js" type="module"></script>
+</body>
+</html>

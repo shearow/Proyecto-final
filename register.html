@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container-header container">
+            <a href="index.html" class="logo-header">
+                <img src="img/tigger-logo.png" alt="logo tigre">
+            </a>
+
+            <div class="burger">
+                <i class="fa-solid fa-bars-staggered burger-open active"></i>
+                <i class="fa-solid fa-x burger-close"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="store.html">Tienda</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li class="user-session"><a href="register.html" class="bg-border">Iniciar Sesion</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping cart"><span><p>0</p></span></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="register-and-login">
+        <section class="login" id="login">
+            <h2 class="section-title">Iniciar Sesión</h2>
+
+            <form class="login-form">
+                <div class="container-info">
+                    <label for="input-email">Email: </label>
+                    <input type="email" data-tag="email" id="login-email" placeholder="email@hotmail.com">
+                </div>
+                
+                <div class="container-info">
+                    <label for="input-password">Contraseña: </label>
+                    <div class="eye">
+                        <input type="password" data-tag="password" placeholder="Ingrese su contraseña" id="login-password">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+
+                <input type="submit" class="btn-sub" id="login-submit" value="INICIAR SESION">
+                <p class="error-login">EMAIL O CONTRASEÑA INCORRECTA.</p>
+                <p class="success-login">EMAIL CORRECTO, USTED ESTÁ LOGUEADO.</p>
+                <p class="change-to-register change-to">No tienes cuenta? <span>Registrarse.</span></p>
+            </form>
+        </section>
+        
+
+        <section class="register" id="register">
+            <h2 class="section-title">Registrarse</h2>
+
+            <form class="register-form">
+                <div class="container-info">
+                    <label for="input-name">Nombre: </label>
+                    <input type="text" placeholder="Ingrese su nombre" data-tag="name" id="input-name">
+                    <p>Nombre inválido (Debe contener de 1 a 40 letras)</p>
+                </div>
+        
+                <div class="container-info">
+                    <label for="input-surname">Apellido: </label>
+                    <input type="text" placeholder="Ingrese su apellido" data-tag="surname" id="input-surname">
+                    <p>Apellido inválido (Debe contener de 1 a 40 letras)</p>
+                </div>
+        
+                <div class="container-info">
+                    <label for="input-email">Email: </label>
+                    <input type="email" data-tag="email" id="input-email" placeholder="email@hotmail.com">
+                    <p>Email inválido (email no válido o ya registrado)</p>
+                </div>
+
+                <div class="container-info">
+                    <label for="input-password">Contraseña: </label>
+                    <div class="eye">
+                        <input type="password" data-tag="password" placeholder="Ingrese su contraseña" id="input-password">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <p>Contraseña inválida. (Debe contener de 4 a 12 números/letras)</p>
+                </div>
+
+                <div class="container-info">
+                    <label for="input-re-password">Repetir Contraseña: </label>
+                    <div class="eye">
+                        <input type="password" data-tag="password2" placeholder="Reingrese su contraseña" id="input-re-password">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <p>Contraseña incorrecta.</p>
+                </div>
+        
+                <input type="submit" class="btn-sub" id="register-submit" value="Registrarse">
+                <p class="error-submit">COMPLETE LOS CAMPOS CORRECTAMENTE.</p>
+                <p class="success-submit">USUARIO CREADO EXITOSAMENTE.</p>
+                <p class="change-to-login change-to">Tienes cuenta? <span>Iniciar sesión.</span></p>
+            </form>
+        </section>
+    </div>
+    
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/register-login.js" type="module"></script>
+    <script src="js/menu-burger.js"></script>
+</body>
+</html>

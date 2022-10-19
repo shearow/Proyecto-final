@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "name": "Agility premium perros adulto",
+        "price": 1010,
+        "description": "Sabor Mix 20kg",
+        "img": "/img/products/prod1.png",
+        "stock": 5,
+        "category": ["perro", "adulto"],
+        "brand": "agility"
+    },
+    {
+        "id": 2,
+        "name": "Vitalcan terapia renal perro adulto",
+        "price": 4500,
+        "description": "Sabor Mix 10kg",
+        "img": "/img/products/prod2.png",
+        "stock": 4,
+        "category": ["perro", "adulto"],
+        "brand": "vitalcan"
+    },
+    {
+        "id": 3,
+        "name": "Eukanuba perro grande adulto",
+        "price": 7500,
+        "description": "Sabor Mix 15kg",
+        "img": "/img/products/prod3.png",
+        "stock": 10,
+        "category": ["perro", "adulto"],
+        "brand": "eukanuba"
+    },
+    {
+        "id": 4,
+        "name": "Eukanuba perro pequeño adulto",
+        "price": 9000,
+        "description": "Sabor Mix 15kg",
+        "img": "/img/products/prod4.png",
+        "stock": 1,
+        "category": ["perro", "adulto"],
+        "brand": "eukanuba"
+    },
+    {
+        "id": 5,
+        "name": "Pro plan perro adulto",
+        "price": 2250,
+        "description": "Sabor Pollo 10kg",
+        "img": "/img/products/prod5.png",
+        "stock": 3,
+        "category": ["perro", "adulto"],
+        "brand": "pro plan"
+    },
+    {
+        "id": 6,
+        "name": "Royal canin bulldog francés perro adulto",
+        "price": 5250,
+        "description": "Sabor Mix 7.5kg",
+        "img": "/img/products/prod6.png",
+        "stock": 5,
+        "category": ["perro", "adulto"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 7,
+        "name": "Royal canin caniche perro adulto",
+        "price": 4200,
+        "description": "Sabor Pollo 7.5kg",
+        "img": "/img/products/prod7.png",
+        "stock": 7,
+        "category": ["perro", "adulto"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 8,
+        "name": "Royal canin club perfomance junior perro cachorro",
+        "price": 9050,
+        "description": "Sabor Mix 15kg",
+        "img": "/img/products/prod8.png",
+        "stock": 1,
+        "category": ["perro", "cachorro"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 9,
+        "name": "Royal canin club perfomance perro adulto",
+        "price": 9999,
+        "description": "Sabor Mix 20kg",
+        "img": "/img/products/prod9.png",
+        "stock": 3,
+        "category": ["perro", "adulto"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 10,
+        "name": "Royal canin cuidado urinario",
+        "price": 5760,
+        "description": "Sabor Mix 7.5kg",
+        "img": "/img/products/prod10.png",
+        "stock": 8,
+        "category": ["perro"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 11,
+        "name": "Vitalcan balanced perro adulto",
+        "price": 6200,
+        "description": "Sabor Mix 20kg",
+        "img": "/img/products/prod11.png",
+        "stock": 3,
+        "category": ["perro", "adulto"],
+        "brand": "vitalcan"
+    },
+    {
+        "id": 12,
+        "name": "Royal canin salud interior gato adulto",
+        "price": 2200,
+        "description": "Sabor Mix 7.5kg",
+        "img": "/img/products/prod12.png",
+        "stock": 1,
+        "category": ["gato", "adulto"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 13,
+        "name": "Royal canin gato castrado",
+        "price": 1800,
+        "description": "Sabor Pollo 10kg",
+        "img": "/img/products/prod13.png",
+        "stock": 5,
+        "category": ["gato"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 14,
+        "name": "Royal canin cuidado urinario gato cachorro",
+        "price": 9500,
+        "description": "Sabor Mix 7.5kg",
+        "img": "/img/products/prod14.png",
+        "stock": 7,
+        "category": ["gato", "cachorro"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 15,
+        "name": "Royal canin gato cachorro",
+        "price": 6800,
+        "description": "Sabor Carne 10kg",
+        "img": "/img/products/prod15.png",
+        "stock": 8,
+        "category": ["gato", "cachorro"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 16,
+        "name": "Royal canin gato senior",
+        "price": 4120,
+        "description": "Sabor Mix 10kg",
+        "img": "/img/products/prod16.png",
+        "stock": 5,
+        "category": ["gato", "senior"],
+        "brand": "royal canin"
+    },
+    {
+        "id": 17,
+        "name": "Royal canin cuidado gastrointestinal",
+        "price": 3200,
+        "description": "Sabor Mix 7.5kg",
+        "img": "/img/products/prod17.png",
+        "stock": 5,
+        "category": ["gato"],
+        "brand": "royal canin"
+    }
+]
